@@ -6,6 +6,7 @@
 body{
     height: 100vh;
     width: 100vw;
+    margin: 8px;
 }
 .nav-urls{
     display: flex;
@@ -18,17 +19,27 @@ body{
 }
 
 section{
+    margin-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .middle-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 25px;
     height: 30vw;
     width: 40vw; 
+    text-align: center;
+}
+.middle-content > h1{
+    font-size: 2em;
+}
+.middle-content>p::first-letter{
+    font-size: 2em;
 }
 .profile-image{
     min-height: 25vh;
@@ -36,4 +47,13 @@ section{
     max-height: 40vh;
     max-width: 40vh;
     align-self: center;
+    border-radius: 8px;
+}
+
+footer{
+    height: 20vw;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
