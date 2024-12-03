@@ -49,11 +49,25 @@ section{
 }
 
 footer{
-    height: 20vw;
-    width: 100vw;
+    margin: 6vh 0vh;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.moden-page{
+    position: relative;
+}
+.modern-page button{
+    height: 30px;
+    content: "go to modern page";
+    width: fit-content;
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    color: red;
 }
 
 @media screen and (max-width: 600px) {
